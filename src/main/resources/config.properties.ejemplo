@@ -1,0 +1,16 @@
+# ---------------------------------------------------------------
+# PLANTILLA de conexión a la base de datos de Neon (PostgreSQL).
+#
+# Cada integrante debe:
+#   1. Copiar este archivo a  config.properties  (en la misma carpeta).
+#   2. Reemplazar los valores con los datos reales de Neon (botón "Connect").
+#
+# El archivo config.properties real NO se sube al repositorio (está en .gitignore)
+# para no exponer las credenciales.
+#
+# Ejemplo de URL:
+#   jdbc:postgresql://ep-nombre-123456.us-east-2.aws.neon.tech/neondb?sslmode=require
+# ---------------------------------------------------------------
+db.url=jdbc:postgresql://TU-HOST.neon.tech/neondb?sslmode=require
+db.usuario=TU_USUARIO
+db.clave=TU_CLAVE

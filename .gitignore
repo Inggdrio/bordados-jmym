@@ -1,0 +1,22 @@
+# Compilado de Maven
+target/
+*.class
+
+# Credenciales reales de la base de datos (NUNCA se suben).
+# Cada integrante crea el suyo copiando config.properties.ejemplo
+config.properties
+src/main/resources/config.properties
+
+# IDEs
+.idea/
+*.iml
+.vscode/
+.settings/
+.project
+.classpath
+nbproject/
+bin/
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
